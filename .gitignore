@@ -1,0 +1,4 @@
+/postgresql/postgresql_data
+/sonarqube/data
+/sonarqube/logs
+.idea
