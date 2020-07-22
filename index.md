@@ -39,4 +39,12 @@ stages:
     - 分支名称
 ```
 
+* php环境本地调用
+
+> 安装 composer require rogervila/php-sonarqube-scanner --dev
+> 本地终端运行命令
+```text
+vendor\bin\sonar-scanner -Dsonar.projectKey=project-api -D"sonar.sources=./src/" -Dsonar.host.url=http://192.168.0.1:9000 -Dsonar.scm.disabled=true
+```
+
 [官方文档地址](https://docs.sonarqube.org/)
