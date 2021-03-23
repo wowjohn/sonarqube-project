@@ -47,4 +47,9 @@ stages:
 vendor\bin\sonar-scanner -Dsonar.projectKey=project-api -D"sonar.sources=./src/" -Dsonar.host.url=http://192.168.0.1:9000 -Dsonar.scm.disabled=true
 ```
 
+* 运行好 postgresql，启动后，连接创建数据库 sonar
+* 运行启动 sonarqube (默认账户密码：admin/admin)
+* plugin 可以访问[链接](https://www.sonarplugins.com)进行下载
+
+
 [官方文档地址](https://docs.sonarqube.org/)
